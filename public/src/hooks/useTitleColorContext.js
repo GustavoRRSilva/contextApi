@@ -1,5 +1,5 @@
 import { useContext } from "react";
-import { TitleColorContext } from "../TitleColorContext";
+import { TitleColorContext } from "../context/TitleColorContext";
 
 export const useTitleColorContext = () => {
     const context = useContext(TitleColorContext)

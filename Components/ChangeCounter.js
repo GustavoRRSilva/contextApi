@@ -1,5 +1,5 @@
 import { Context, useContext } from "react";
-import { CounterContext } from "@/public/src/CounterContext";
+import { CounterContext } from "@/public/src/context/CounterContext";
 
 export default function ChangeCounter(){
     const{counter,setCounter} = useContext(CounterContext);
